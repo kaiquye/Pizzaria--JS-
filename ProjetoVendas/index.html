@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Dom Bosco</title>
+    <link rel="stylesheet" href="style/estilo.css">
+
+</head>
+<body>
+    <header>
+        <ul>
+            <li><h1>Pizzaria Dom Bosco</h1></li>
+            <li><h2>Tel : 39875-4321 Tel : 31545-6777</h2></li>
+        </ul>
+    </header>
+    <section class="listPizza">
+        <ul>
+            <li><input type="radio" id="Calabresa" name="pizza">
+            <label for="Calabresa">Calabresa</label></li>
+            <li><input type="radio" id="Mista" name="pizza">
+            <label for="Mista">Mista</label></li>
+            <li><input type="radio" id="Mussarela" name="pizza">
+            <label for="Mussarela">Mussarela</label></li>
+        </ul>
+    </section>
+    <section class="classButton">
+        <button id="addElement">ADICIONAR</button> <button id="delElement" >APAGAR</button>
+    </section>
+    
+    <section class="table">
+        <table>
+            <tr>
+                <th>Modelo</th><th>Quantidade</th><th>Valor</th>
+            </tr>
+            <tr>
+                <td>Mussarela</td><td id="quantidadeMussarela"></td> <td id="valorMussarela"></td>
+            </tr>
+            <tr>
+                <td>Mista</td><td id="quantidadeMista"></td><td id="valorMista"></td>
+            </tr>
+            <tr>
+                <td>Calabresa</td><td id="quantidadeCalabresa"></td><td id="valorCalabresa"></td>
+            </tr>
+        </table>
+    </section>
+ 
+
+    <script src="js/script.js"></script>
+</body>
+</html>
